@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/M.PNG" type="image/png">
+        <img src="IMAGENS/G.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio no site</h1>
+    <p>Vamos aprender a reprozudir áudios em HTML5</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/I Don't Think So (Original Speed) - The Soundlings.mp3" type="audio/mpeg">
+ </audio>
+ <h1>Agora vamos reproduzir um vídeo</h1>
+
+ <video width="800" poster="IMAGENS/pexels-bohlemedia-1884574.jpg"controls autoplay loop>
+<source src="video/3722209-hd_1920_1080_25fps.mp4" type="">
+</video>
+    
+</body>
+</html>

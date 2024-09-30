@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('foto/Foto-de-fauxels-no-Pexels-27.png'); /* Caminho para sua imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-color: #f0f0f0; /* Cor de fundo caso a imagem não carregue */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.container:hover {
+    background-color: #e0f7fa; /* Muda a cor de fundo ao passar o mouse */
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: #4a4a4a;
+}
+
+img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0073ff; /* Cor do botão */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #1eff00; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05);
+    justify-content: start;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    justify-content: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h4 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.project a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
